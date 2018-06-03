@@ -1,0 +1,7 @@
+﻿Strategy.name(永远合作)
+	.result->1
+
+Strategy.name(随机1/3概率)
+        .random(3)->i
+        .branch(i==0)->0
+        .result->1
